@@ -43,6 +43,9 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: {
+      sizes: [28, 64, 120, 144, 152, 192, 384, 512],
+    },
     manifest: {
       lang: 'en',
     },
